@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need your location to show campus maps, navigation, and find nearby friends.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>We use your location in the background to track your steps and path while you explore.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>We need camera access for the AR Navigation and Treasure Hunt features.</string>
+    <key>NSHealthShareUsageDescription</key>
+    <string>We sync with HealthKit to track your steps and activity for fitness challenges.</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>We save your workout sessions to HealthKit.</string>
+    <key>NSMotionUsageDescription</key>
+    <string>We use motion data to count steps if HealthKit is unavailable.</string>
+</dict>
+</plist>
